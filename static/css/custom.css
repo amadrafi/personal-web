@@ -1,0 +1,26 @@
+/* Override theme styles without modifying the submodule */
+.Header img.octicon,
+.Header img.octicon-mark-github {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.h-card .position-relative > a {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+#headerImg {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  display: block;
+  height: 100% !important;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.5);
+  transform-origin: center;
+  width: 100% !important;
+}
