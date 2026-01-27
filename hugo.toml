@@ -1,0 +1,10 @@
+baseURL = 'https://amadrafi.dev/'
+languageCode = 'en-us'
+title = "Rafi's Personal Site"
+theme = "github-style"
+
+[params]
+  author = 'Aulia Rafi'
+  description = "Personal Blog"
+  github = "amadrafi"
+
