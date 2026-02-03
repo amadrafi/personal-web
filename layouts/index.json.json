@@ -1,0 +1,17 @@
+{{- $pages := where .Site.RegularPages "Params.search" "ne" false -}}
+{{- $pages = where $pages "Draft" "ne" true -}}
+{{- $pages = where $pages "Kind" "eq" "page" -}}
+[
+{{- range $index, $p := $pages -}}
+  {{- if $index }},{{ end }}
+  {
+    "title": {{ $p.Title | jsonify }},
+    "permalink": {{ $p.RelPermalink | jsonify }},
+    "summary": {{ (or $p.Params.description $p.Summary $p.Description) | plainify | htmlUnescape | jsonify }},
+    "content": {{ $p.Plain | plainify | htmlUnescape | truncate 400 | jsonify }},
+    "section": {{ $p.Section | jsonify }},
+    "tags": {{ $p.Params.tags | default (slice) | jsonify }},
+    "date": {{ $p.Date.Format "2006-01-02" | jsonify }}
+  }
+{{- end -}}
+]

@@ -3,10 +3,14 @@ languageCode = 'en-us'
 title = "Rafi's Personal Site"
 theme = "github-style"
 
+[outputs]
+  home = ["HTML", "JSON"]
+
 [params]
   author = 'Aulia Rafi'
   description = "Personal Blog"
   github = "amadrafi"
   avatar = "/images/profile.jpeg"
   headerIcon = "/images/profile.jpeg"
-  custom_css = ["css/custom.css"]
+  enableSearch = true
+  custom_css = ["css/custom.css", "css/search.css"]

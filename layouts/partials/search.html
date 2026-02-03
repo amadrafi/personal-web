@@ -1,0 +1,37 @@
+<div id="site-search-overlay"
+  class="search-overlay"
+  aria-hidden="true"
+  hidden
+  data-search-index="{{ "index.json" | relURL }}">
+  <div class="search-backdrop" data-search-close></div>
+  <div class="search-panel" role="dialog" aria-modal="true" aria-label="Search">
+    <div class="search-header">
+      <svg class="search-icon" viewBox="0 0 16 16" aria-hidden="true">
+        <path
+          d="M11.742 10.344a6.5 6.5 0 10-1.397 1.398h-.001l3.85 3.85a1 1 0 001.415-1.414l-3.85-3.85zm-5.242.656a5 5 0 110-10 5 5 0 010 10z">
+        </path>
+      </svg>
+      <input
+        id="search-overlay-input"
+        class="search-input"
+        type="search"
+        placeholder="Search"
+        autocomplete="off"
+        aria-label="Search">
+      <button type="button" class="search-close" aria-label="Close search" data-search-close>
+        Esc
+      </button>
+    </div>
+    <div class="search-body">
+      <div id="search-status" class="search-sr-only" aria-live="polite"></div>
+      <div id="search-empty" class="search-state">Type to search...</div>
+      <div id="search-no-results" class="search-state" hidden>No results.</div>
+      <ul id="search-results-list" class="search-results" role="listbox" aria-label="Search results"></ul>
+    </div>
+    <div class="search-footer">
+      <span class="search-hint">/ to search</span>
+      <span class="search-hint">Esc to close</span>
+      <span class="search-hint">Enter to open</span>
+    </div>
+  </div>
+</div>
