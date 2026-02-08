@@ -12,6 +12,7 @@ theme = "github-style"
   github = "amadrafi"
   linkedin = "aulia-ahmad-rafi"
   instagram = "amadrafi"
+  twitter = "auliaahmadrafi"
   avatar = "/images/profile.jpeg"
   headerIcon = "/images/profile.jpeg"
   enableSearch = true
