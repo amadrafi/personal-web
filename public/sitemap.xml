@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://amadrafi.dev/</loc>
+    <lastmod>2026-02-09T02:37:03+07:00</lastmod>
+  </url><url>
+    <loc>https://amadrafi.dev/readme/</loc>
+    <lastmod>2026-02-09T02:37:03+07:00</lastmod>
+  </url><url>
     <loc>https://amadrafi.dev/tags/career/</loc>
     <lastmod>2026-01-27T19:42:00+07:00</lastmod>
   </url><url>
@@ -12,9 +18,6 @@
     <lastmod>2026-01-27T19:42:00+07:00</lastmod>
   </url><url>
     <loc>https://amadrafi.dev/post/</loc>
-    <lastmod>2026-01-27T19:42:00+07:00</lastmod>
-  </url><url>
-    <loc>https://amadrafi.dev/</loc>
     <lastmod>2026-01-27T19:42:00+07:00</lastmod>
   </url><url>
     <loc>https://amadrafi.dev/tags/</loc>
