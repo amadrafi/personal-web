@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://amadrafi.dev/categories/</loc>
+    <loc>https://amadrafi.dev/post/first-post/</loc>
+    <lastmod>2026-01-27T19:42:00+07:00</lastmod>
+  </url><url>
+    <loc>https://amadrafi.dev/post/</loc>
+    <lastmod>2026-01-27T19:42:00+07:00</lastmod>
   </url><url>
     <loc>https://amadrafi.dev/</loc>
+    <lastmod>2026-01-27T19:42:00+07:00</lastmod>
+  </url><url>
+    <loc>https://amadrafi.dev/categories/</loc>
   </url><url>
     <loc>https://amadrafi.dev/tags/</loc>
   </url>
