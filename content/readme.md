@@ -17,6 +17,6 @@ Here's all you need to to know:
 - Teaching (for me) is a fulfilling activity.
 
 Here's what I am doing now:
-- Co-Founder and CTO @ Bracket AI (currently in stealth).
+- Co-Founder and CTO @ Bracket AI (currently in stealth) [Link](./post/first-post).
 - Product Builder @ [Podifi AI](https://www.podifi.ai/).
 - English Tutor Volunteer @ [LinguaLink](https://www.instagram.com/lingualink.idn/)

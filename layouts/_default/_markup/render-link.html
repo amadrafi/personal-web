@@ -1,0 +1,17 @@
+{{- $destination := .Destination -}}
+{{- $isExternal := false -}}
+{{- $isPostPage := eq .Page.Section "post" -}}
+
+{{- $destURL := urls.Parse $destination -}}
+{{- if $destURL.Host -}}
+  {{- $siteURL := urls.Parse .Page.Site.BaseURL -}}
+  {{- if ne $destURL.Host $siteURL.Host -}}
+    {{- $isExternal = true -}}
+  {{- end -}}
+{{- end -}}
+
+<a href="{{ $destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{- end -}}
+  {{- if and $isExternal (not $isPostPage) }} target="_blank" rel="noopener noreferrer"{{- end -}}>
+  {{- .Text | safeHTML -}}
+</a>
